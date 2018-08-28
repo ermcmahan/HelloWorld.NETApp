@@ -4,13 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Web Hello World</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
 
-            <%Response.Write( "Hello World!"); %>
+            <h1>Hello World -- from the Web!</h1>
+            <%--<p>The time is @DateTime.Now</p>--%>
 
         </div>
     </form>
